@@ -349,15 +349,19 @@
   }
 
 
-
+/*================================================*/
 
 
   /* Start of Kristin's CSS */
 
+body {
+  background-color: rgb(220,220,220);
+}
+
   /* Page navbar */
   .pagenavbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(55,55,55);
     font-family: Didot;
   }
 
@@ -425,3 +429,194 @@
   }
 
   
+  
+  /* Styling for h1 - h4 */
+  h1 {
+      font-family: Didot;
+      margin-left: 40px;
+      margin-top: 20px;
+      padding: 5px;
+      color: rgb(0, 0, 0);
+  }
+
+  h2 {
+    font-family: Didot;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    color: rgb(0,0,0);
+}
+
+h3 {
+    font-family: Didot;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    color: rgb(0,0,0);
+}
+
+h4 {
+    font-family: Didot;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    color: rgb(0,0,0);
+}
+
+/* Styling for figure captions */
+
+  figcaption {
+    font-family: Didot;
+    color: rgb(55,55,55);
+    font-style: italic;
+    margin-top: 5px;
+  }
+
+  /* Styling for img */
+
+  #thumbnail img {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    width:150px;
+  }
+
+  
+  div.polaroid {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 40px;
+  }
+
+  div.polaroid div.container figure img {
+    width: 100%;
+  }
+
+  div.container{
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  /* Styling for Blockquote */
+
+  blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family:Didot;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid  rgb(0,139,139) ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+  }
+  
+  blockquote::before{
+    font-family:Didot;
+    content: "\201C";
+    color:  rgb(0,139,139);
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+  
+  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
+
+
+  /* Styling for paragraphs */
+
+  p {
+    font-family: Didot;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 5px;
+    color: rgb(0,0,0);
+  }
+
+  /* unorder list styling */
+
+  ul {
+    font-family: Didot;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+/* ordered list styling */
+
+ol {
+  font-family: Didot;
+  margin-left: 40px;
+}
+
+  /* Button id joinww styling */
+
+  #joinww {
+      background-color:  rgb(55,55,55);
+      display: inline-block;
+      padding: 10px 24px;
+      border-radius: 12px;  
+  }
+
+  #joinww a {
+    font-family: Didot;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #joinww:hover {
+    background-color: rgb(0,139,139);
+  }
+
+  /* Back to top button */
+
+footer button {
+      background-color:  rgb(55,55,55);
+      display: inline-block;
+      padding: 10px 24px;
+      border-radius: 12px;
+      margin-bottom: 50px;
+      margin-right: 40px;
+      padding: 5px;
+      float: right;
+}
+
+ footer button a {
+    font-family: Didot;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+footer button:hover {
+  background-color: rgb(0,139,139);
+}
+
+  /* Footer Styling */
+  footer {
+    font-family: Didot;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
