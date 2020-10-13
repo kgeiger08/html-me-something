@@ -488,53 +488,55 @@ h4 {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 40px;
+    border-radius: 4px;
   }
 
   div.polaroid div.container figure img {
     width: 100%;
+    border-radius: 4px;
   }
 
-  div.container{
+  div.container {
     text-align: center;
     padding: 10px 20px;
   }
 
   /* Styling for Blockquote */
 
-  blockquote{
+  blockquote {
     font-size: 1.4em;
-    width:60%;
-    margin:50px auto;
-    font-family:Didot;
-    font-style:italic;
+    width: 50%;
+    margin: 50px auto;
+    font-family: Didot;
+    font-style: italic;
     color: #555555;
-    padding:1.2em 30px 1.2em 75px;
-    border-left:8px solid  rgb(0,139,139) ;
-    line-height:1.6;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid  rgb(0,139,139) ;
+    line-height: 1.6;
     position: relative;
-    background:#EDEDED;
+    background: #EDEDED;
   }
   
-  blockquote::before{
-    font-family:Didot;
+  blockquote::before {
+    font-family: Didot;
     content: "\201C";
     color:  rgb(0,139,139);
-    font-size:4em;
+    font-size: 4em;
     position: absolute;
     left: 10px;
-    top:-10px;
+    top: -10px;
   }
   
-  blockquote::after{
+  blockquote::after {
     content: '';
   }
   
-  blockquote span{
-    display:block;
-    color:#333333;
+  blockquote span {
+    display: block;
+    color: #333333;
     font-style: normal;
     font-weight: bold;
-    margin-top:1em;
+    margin-top: 1px;
   }
 
 
@@ -591,7 +593,6 @@ ol {
 
 footer button {
       background-color:  rgb(55,55,55);
-      display: inline-block;
       padding: 10px 24px;
       border-radius: 12px;
       margin-bottom: 50px;
