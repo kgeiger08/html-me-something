@@ -361,7 +361,7 @@ body {
   /* Page navbar */
   .pagenavbar {
     overflow: hidden;
-    background-color: rgb(55,55,55);
+    background-color: rgb(82, 80, 80);
     font-family: Didot;
   }
 
@@ -433,15 +433,15 @@ body {
   /* Styling for h1 - h4 */
   h1 {
       font-family: Didot;
-      margin-left: 40px;
-      margin-top: 20px;
+      margin-left: 100px;
+      margin-top: 100px;
       padding: 5px;
       color: rgb(0, 0, 0);
   }
 
   h2 {
     font-family: Didot;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 20px;
     padding: 5px;
     color: rgb(0,0,0);
@@ -449,7 +449,7 @@ body {
 
 h3 {
     font-family: Didot;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 20px;
     padding: 5px;
     color: rgb(0,0,0);
@@ -457,7 +457,7 @@ h3 {
 
 h4 {
     font-family: Didot;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 20px;
     padding: 5px;
     color: rgb(0,0,0);
@@ -475,23 +475,30 @@ h4 {
   /* Styling for img */
 
   #thumbnail img {
+    display: block;
     border: 1px solid white;
     background-color: white;
     border-radius: 4px;
     padding: 5px;
     width:150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #thumbnail figcaption {
+    text-align: center;
   }
 
   
   div.polaroid {
-    width: 60%;
+    width: 30%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 40px;
+    margin-left: 100px;
     border-radius: 4px;
   }
 
-  div.polaroid div.container figure img {
+  div.polaroid figure img {
     width: 100%;
     border-radius: 4px;
   }
@@ -505,13 +512,14 @@ h4 {
 
   blockquote {
     font-size: 1.4em;
-    width: 50%;
-    margin: 50px auto;
+    width: 40%;
+    margin: 100px 100px;
     font-family: Didot;
     font-style: italic;
     color: #555555;
     padding: 1.2em 30px 1.2em 75px;
     border-left: 8px solid  rgb(0,139,139) ;
+    border-radius: 4px;
     line-height: 1.6;
     position: relative;
     background: #EDEDED;
@@ -544,33 +552,64 @@ h4 {
 
   p {
     font-family: Didot;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 200px;
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 16px;
     padding: 5px;
     color: rgb(0,0,0);
+    line-height: 30px;
   }
+
+/* Styling for Recipes */
+
+h3 #tacoHeader {
+  margin-left: 100px;
+}
+
+#recipe1 {
+  width: 700px;
+  padding: 20px;
+  border: 5px solid rgb(0,139,139);
+  border-radius: 4px;
+  margin: 20px 100px;
+  background-color: #EDEDED;
+}
+
+#recipe2 {
+  width: 700px;
+  padding: 20px;
+  border: 5px solid rgb(0,139,139);
+  border-radius: 4px;
+  margin: 20px 100px;
+  background-color: #EDEDED;
+}
+
 
   /* unorder list styling */
 
   ul {
     font-family: Didot;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-bottom: 30px;
+    margin-right: 200px;
+    line-height: 30px;
   }
 
 /* ordered list styling */
 
 ol {
   font-family: Didot;
-  margin-left: 40px;
+  margin-left: 100px;
+  margin-right: 200px;
+  line-height: 30px;
 }
 
   /* Button id joinww styling */
 
   #joinww {
-      background-color:  rgb(55,55,55);
+      background-color:  rgb(82, 80, 80);
       display: inline-block;
       padding: 10px 24px;
       border-radius: 12px;  
@@ -592,7 +631,7 @@ ol {
   /* Back to top button */
 
 footer button {
-      background-color:  rgb(55,55,55);
+      background-color: rgb(82, 80, 80);
       padding: 10px 24px;
       border-radius: 12px;
       margin-bottom: 50px;
@@ -617,7 +656,7 @@ footer button:hover {
   /* Footer Styling */
   footer {
     font-family: Didot;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-bottom: 15px;
     padding: 5px;
   }
